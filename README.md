@@ -1,0 +1,2 @@
+# MavenSpringMybatis
+第一个java项目 使用maven管理项目结构和jar包，使用springmvc 和Mybatis框架
