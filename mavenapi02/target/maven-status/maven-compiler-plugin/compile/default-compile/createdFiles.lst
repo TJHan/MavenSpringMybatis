@@ -1,0 +1,5 @@
+com\tj\entity\Student.class
+com\tj\dao\IStudentMapper.class
+com\tj\service\IStudentService.class
+com\tj\service\impl\StudentServiceImpl.class
+com\tj\controller\StudentController.class
