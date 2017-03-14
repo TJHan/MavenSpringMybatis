@@ -26,9 +26,9 @@ public class MyBatisTest {
 	{
 		Student entity=new Student();
 		entity.setAge(10);
-		entity.setName("æµ‹è¯•");
+		entity.setName("²âÊÔ");
 		entity.setBirthday(new Date());
-		entity.setDescription("æµ‹è¯•æ•°æ®");
+		entity.setDescription("²âÊÔÊı¾İ");
 		studentService.addStudent(entity);
 	}
 }

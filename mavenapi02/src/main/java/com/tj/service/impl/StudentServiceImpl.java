@@ -33,4 +33,16 @@ public class StudentServiceImpl implements IStudentService {
 		return studentMapper.findAllStudents();
 	}
 
+	@Override
+	public void updateStudent(Student student) {
+		// TODO Auto-generated method stub
+		studentMapper.updateStudent(student);
+	}
+
+	@Override
+	public void deleteStudent(int id) {
+		// TODO Auto-generated method stub
+		studentMapper.deleteStudentById(id);
+	}
+
 }

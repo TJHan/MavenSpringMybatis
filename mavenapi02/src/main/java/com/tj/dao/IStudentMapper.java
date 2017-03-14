@@ -8,4 +8,7 @@ public interface IStudentMapper {
 	Student findStudentById(int id);
 	int insertStudent(Student student);
 	List<Student> findAllStudents();
+	
+	int updateStudent(Student student);
+	void deleteStudentById(int id);
 }
